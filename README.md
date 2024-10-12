@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project
+# Welcome to Starter Lambda CDK TypeScript Project
 
 ## Prereqs
 - AWS Account: Ensure you have an AWS account with permissions to deploy Lambda functions and related resources.
@@ -43,11 +43,12 @@ cdk synth
 
 # Deploy the stack
 cdk deploy
-
-# Test the Lambda function via AWS CLI
-aws lambda invoke --function-name StarterLambdaFunction output.json
 ```
 
+## Test the Lambda
+```bash
+aws lambda invoke --function-name StarterLambdaFunction output.json
+```
 
 ## Useful CDK commands
 
