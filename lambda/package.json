@@ -1,0 +1,12 @@
+{
+  "name": "lambda-function",
+  "version": "1.0.0",
+  "dependencies": {
+    "aws-sdk": "^2.1000.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.76",
+    "typescript": "^4.4.4"
+  }
+}
+
